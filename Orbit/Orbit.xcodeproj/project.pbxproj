@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A37C6CC4254305BB00CABDF9 /* OrbitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37C6CC3254305BB00CABDF9 /* OrbitApp.swift */; };
+		A37C6CC6254305BB00CABDF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37C6CC5254305BB00CABDF9 /* ContentView.swift */; };
+		A37C6CC8254305BC00CABDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37C6CC7254305BC00CABDF9 /* Assets.xcassets */; };
+		A37C6CCB254305BC00CABDF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37C6CCA254305BC00CABDF9 /* Preview Assets.xcassets */; };
+		A37C6CD92543763A00CABDF9 /* LoonaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37C6CD82543763A00CABDF9 /* LoonaCardView.swift */; };
+		A37C6CDD254413BC00CABDF9 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37C6CDC254413BC00CABDF9 /* StartButtonView.swift */; };
+		A37C6CE0254423AA00CABDF9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37C6CDF254423AA00CABDF9 /* OnboardingView.swift */; };
+		A37C6CE42547002A00CABDF9 /* LoonaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37C6CE32547002900CABDF9 /* LoonaModel.swift */; };
+		A37C6CE82547044400CABDF9 /* LoonaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37C6CE72547044400CABDF9 /* LoonaData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A37C6CC0254305BB00CABDF9 /* Orbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37C6CC3254305BB00CABDF9 /* OrbitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitApp.swift; sourceTree = "<group>"; };
+		A37C6CC5254305BB00CABDF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A37C6CC7254305BC00CABDF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A37C6CCA254305BC00CABDF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A37C6CCC254305BC00CABDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37C6CD82543763A00CABDF9 /* LoonaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoonaCardView.swift; sourceTree = "<group>"; };
+		A37C6CDC254413BC00CABDF9 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		A37C6CDF254423AA00CABDF9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A37C6CE32547002900CABDF9 /* LoonaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoonaModel.swift; sourceTree = "<group>"; };
+		A37C6CE72547044400CABDF9 /* LoonaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoonaData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A37C6CBD254305BB00CABDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A37C6CB7254305BB00CABDF9 = {
+			isa = PBXGroup;
+			children = (
+				A37C6CC2254305BB00CABDF9 /* Orbit */,
+				A37C6CC1254305BB00CABDF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A37C6CC1254305BB00CABDF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A37C6CC0254305BB00CABDF9 /* Orbit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A37C6CC2254305BB00CABDF9 /* Orbit */ = {
+			isa = PBXGroup;
+			children = (
+				A37C6CE62547043200CABDF9 /* Data */,
+				A37C6CE22547000400CABDF9 /* Model */,
+				A37C6CD72543760F00CABDF9 /* View */,
+				A37C6CD6254375D900CABDF9 /* App */,
+				A37C6CC7254305BC00CABDF9 /* Assets.xcassets */,
+				A37C6CCC254305BC00CABDF9 /* Info.plist */,
+				A37C6CC9254305BC00CABDF9 /* Preview Content */,
+			);
+			path = Orbit;
+			sourceTree = "<group>";
+		};
+		A37C6CC9254305BC00CABDF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A37C6CCA254305BC00CABDF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A37C6CD6254375D900CABDF9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A37C6CC3254305BB00CABDF9 /* OrbitApp.swift */,
+				A37C6CC5254305BB00CABDF9 /* ContentView.swift */,
+				A37C6CDF254423AA00CABDF9 /* OnboardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A37C6CD72543760F00CABDF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A37C6CD82543763A00CABDF9 /* LoonaCardView.swift */,
+				A37C6CDC254413BC00CABDF9 /* StartButtonView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A37C6CE22547000400CABDF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A37C6CE32547002900CABDF9 /* LoonaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A37C6CE62547043200CABDF9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A37C6CE72547044400CABDF9 /* LoonaData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A37C6CBF254305BB00CABDF9 /* Orbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37C6CCF254305BC00CABDF9 /* Build configuration list for PBXNativeTarget "Orbit" */;
+			buildPhases = (
+				A37C6CBC254305BB00CABDF9 /* Sources */,
+				A37C6CBD254305BB00CABDF9 /* Frameworks */,
+				A37C6CBE254305BB00CABDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orbit;
+			productName = Orbit;
+			productReference = A37C6CC0254305BB00CABDF9 /* Orbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A37C6CB8254305BB00CABDF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					A37C6CBF254305BB00CABDF9 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = A37C6CBB254305BB00CABDF9 /* Build configuration list for PBXProject "Orbit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A37C6CB7254305BB00CABDF9;
+			productRefGroup = A37C6CC1254305BB00CABDF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A37C6CBF254305BB00CABDF9 /* Orbit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A37C6CBE254305BB00CABDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37C6CCB254305BC00CABDF9 /* Preview Assets.xcassets in Resources */,
+				A37C6CC8254305BC00CABDF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A37C6CBC254305BB00CABDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37C6CD92543763A00CABDF9 /* LoonaCardView.swift in Sources */,
+				A37C6CDD254413BC00CABDF9 /* StartButtonView.swift in Sources */,
+				A37C6CC6254305BB00CABDF9 /* ContentView.swift in Sources */,
+				A37C6CE42547002A00CABDF9 /* LoonaModel.swift in Sources */,
+				A37C6CE0254423AA00CABDF9 /* OnboardingView.swift in Sources */,
+				A37C6CE82547044400CABDF9 /* LoonaData.swift in Sources */,
+				A37C6CC4254305BB00CABDF9 /* OrbitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A37C6CCD254305BC00CABDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A37C6CCE254305BC00CABDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A37C6CD0254305BC00CABDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Orbit/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T6NLHXYQT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Orbit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mruchus.Orbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A37C6CD1254305BC00CABDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Orbit/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T6NLHXYQT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Orbit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mruchus.Orbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A37C6CBB254305BB00CABDF9 /* Build configuration list for PBXProject "Orbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37C6CCD254305BC00CABDF9 /* Debug */,
+				A37C6CCE254305BC00CABDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37C6CCF254305BC00CABDF9 /* Build configuration list for PBXNativeTarget "Orbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37C6CD0254305BC00CABDF9 /* Debug */,
+				A37C6CD1254305BC00CABDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A37C6CB8254305BB00CABDF9 /* Project object */;
+}
